@@ -25,6 +25,7 @@ if (randomNum === 2 || 4){
 }
 
 // BONUS
+// Ternaries are good to use in place of a simple IF ELSE statement
 randomNum >= 4 ? console.log("Equal to or more than 4") : console.log("Less than 4");
 
 switch (randomNum){
