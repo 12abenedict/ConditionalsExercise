@@ -20,7 +20,7 @@ if (randomNum !=(3 && 5)){
     console.log("Not equal to 3 AND not equal to 5");
 }
 
-if (randomNum === 2 && 4){
+if (randomNum === 2 || 4){
     console.log("Equal to 2 or equal to 4");
 }
 
