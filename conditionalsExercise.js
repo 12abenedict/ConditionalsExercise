@@ -1,7 +1,7 @@
-let randomNum = Math.random();
-randomNum *=5;
-randomNum++;
-randomNum = Math.floor(randomNum);
+let randomNum = Math.floor((Math.random() *5) + 1);
+// randomNum *=5;
+// randomNum++;
+// randomNum = Math.floor(randomNum);
 console.log(randomNum);
 
 if (randomNum >=4){
